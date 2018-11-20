@@ -1,0 +1,51 @@
+.map {
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
+.margin-top-negative {
+    margin-top: -75px;
+}
+
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.container-show {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 90%;
+}
+
+.flat-show-card {
+    background: #F8F9FA;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.flat-show-address {
+    font-weight: 300;
+    font-size: 20px;
+    color: #333;
+    }
